@@ -1,0 +1,108 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #37474f;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+.menu span{
+    
+}
+.menu .home{
+    margin-right: 5px;
+}
+.listfunction{
+    display: none;
+}
+.listfunction ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: #37474f;
+    margin-top: 0px;
+}
+.listfunction>ul{
+    height: 100%;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 310px;
+    padding-bottom: 100px;
+    overflow-y: auto;
+}
+.listfunction>ul::-webkit-scrollbar{
+        display: none;
+}
+.listfunction>ul #gray{
+    color: gray;
+    padding: 20px;
+    font-weight: 500;
+}
+.listfunction a{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+}
+.listfunction ul span{
+    margin-right: 20px;
+}
+.listfunction .sub-list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #607d8b;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.listfunction .sub-list li{
+    font-size: 16px;
+    color: #ffffff;
+}
+.listfunction .sub-list li:first-child{
+    font-size: 40px;
+}
+.listfunction .sub-list li a{
+    border: 0;
+}
+.main .main-bg{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.main .item{
+    margin-top: 90px;
+}
